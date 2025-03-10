@@ -24,7 +24,6 @@ export default function Home() {
       } else {
         setVideoUrl(data.url);
       }
-      setVideoUrl(inputValue);
       setInputValue("");
     }
   };
